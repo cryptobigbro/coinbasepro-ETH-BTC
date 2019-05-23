@@ -1,0 +1,81 @@
+{
+    "instrument": {
+        "id": "ETH-BTC",
+        "exchange": "coinbasepro",
+        "status": "trading",
+        "exchange_info": {
+            "id": "ETH-BTC",
+            "base_currency": "ETH",
+            "quote_currency": "BTC",
+            "base_min_size": "0.01",
+            "base_max_size": "2400",
+            "base_increment": "0.00000001",
+            "quote_increment": "0.00001",
+            "display_name": "ETH/BTC",
+            "status": "online",
+            "margin_enabled": false,
+            "status_message": "",
+            "min_market_funds": "0.001",
+            "max_market_funds": "80",
+            "post_only": false,
+            "limit_only": false,
+            "cancel_only": false
+        },
+        "base_asset": "ETH",
+        "quote_asset": "BTC"
+    },
+    "base_asset": {
+        "id": "ETH",
+        "precision": 8,
+        "exchange_info": {
+            "id": "ETH",
+            "name": "Ether",
+            "min_size": "0.00000001",
+            "status": "online",
+            "message": null,
+            "details": {
+                "type": "crypto",
+                "symbol": "\u039e",
+                "network_confirmations": 35,
+                "sort_order": 25,
+                "crypto_address_link": "https://etherscan.io/address/{{address}}",
+                "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+                "push_payment_methods": [
+                    "crypto"
+                ],
+                "group_types": [
+                    "eth",
+                    "crypto"
+                ]
+            },
+            "max_precision": "0.00000001"
+        }
+    },
+    "quote_asset": {
+        "id": "BTC",
+        "precision": 8,
+        "exchange_info": {
+            "id": "BTC",
+            "name": "Bitcoin",
+            "min_size": "0.00000001",
+            "status": "online",
+            "message": null,
+            "details": {
+                "type": "crypto",
+                "symbol": "\u20bf",
+                "network_confirmations": 6,
+                "sort_order": 20,
+                "crypto_address_link": "https://live.blockcypher.com/btc/address/{{address}}",
+                "crypto_transaction_link": "https://live.blockcypher.com/btc/tx/{{txId}}",
+                "push_payment_methods": [
+                    "crypto"
+                ],
+                "group_types": [
+                    "btc",
+                    "crypto"
+                ]
+            },
+            "max_precision": "0.00000001"
+        }
+    }
+}
